@@ -1,0 +1,34 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "fpdf>=1.7.2",
+    "networkx>=3.5",
+    "numpy>=2.3.4",
+    "openai>=2.6.1",
+    "opencv-python>=4.11.0.86",
+    "opencv-python-headless>=4.11.0.86",
+    "openpyxl>=3.1.0",
+    "pandas>=2.3.3",
+    "pillow>=11.3.0",
+    "plotly>=6.3.1",
+    "prophet>=1.2.1",
+    "psutil>=7.1.2",
+    "pytesseract>=0.3.13",
+    "pyzbar>=0.1.9",
+    "reportlab>=4.4.4",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.16.2",
+    "seaborn>=0.13.2",
+    "statsmodels>=0.14.5",
+    "streamlit>=1.50.0",
+    "tensorflow>=2.20.0",
+]
+
+[project.optional-dependencies]
+notifications = [
+    "sendgrid>=6.10.0",
+    "twilio>=8.10.0",
+]
